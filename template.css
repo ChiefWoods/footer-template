@@ -19,13 +19,6 @@ body {
   width: calc(100vw - (100vw - 100%));
 }
 
-/* Main */
-
-main {
-  display: flex;
-  flex: 1;
-}
-
 /* Footer */
 
 footer {
@@ -36,6 +29,10 @@ footer {
   background-color: var(--github-black);
   padding: 12px 3%;
   height: 55px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
 }
 
 .made-by, .github-link {
